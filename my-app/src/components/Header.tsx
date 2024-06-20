@@ -43,6 +43,9 @@ const HeaderLayout = styled.header`
   }
   @media screen and (max-width: 600px) {
     padding: 2% 5%;
+    .logo_wrapper {
+      min-width: 100px;
+    }
   }
 `;
 
@@ -58,6 +61,8 @@ const Header = () => {
         <Link href='/intro'>회사 소개</Link>
         <span></span>
         <Link href='/patent'>특허 리스트</Link>
+        <span></span>
+        <Link href='/team'>팀원</Link>
       </div>
     </HeaderLayout>
   );

@@ -24,6 +24,11 @@ const GlobalStyle = createGlobalStyle`
     -moz-user-drag: none;
     -o-user-drag: none;
   }
+  @media screen and (max-width: 600px) {
+    html {
+        font-size: 40%;
+    }
+  }
 `;
 
 const App = ({ Component, pageProps }: AppProps) => {
